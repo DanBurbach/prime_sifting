@@ -1,9 +1,10 @@
 require('rspec')
-require('coin_combinations.rb')
+require('prime_sifting.rb')
 require('pry')
 
 
 describe '#make_change' do
-  it("") do
-    expect().to eql()
+  it("recognizes 2 as a prime number") do
+    expect(2.prime).to eql(2)
   end
+end
