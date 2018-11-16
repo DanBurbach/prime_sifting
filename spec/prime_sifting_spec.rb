@@ -8,6 +8,6 @@ describe '#prime' do
     expect(2.prime).to eql([2])
   end
   it("recognizes 3 as a prime number") do
-    expect(11.prime).to eql([2,3,4,5,6,7,8,9,10])
+    expect(188.prime).to eql([2,3,5,7,11])
   end
 end
